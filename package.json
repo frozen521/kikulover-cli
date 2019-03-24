@@ -1,30 +1,5 @@
 {
-  "name": "kikulover-cli",
-  "version": "1.0.0",
-  "description": "kikulover cli tool",
-  "main": "index.js",
-  "bin": {
-    "node-cli": "bin/index.js"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/copyer1998/kikulover-cli.git"
-  },
-  "keywords": [
-    "kikulover"
-  ],
-  "author": "copyer1998",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/copyer1998/kikulover-cli/issues"
-  },
-  "homepage": "https://github.com/copyer1998/kikulover-cli#readme",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "commander": "^2.19.0",
-    "fs-extra": "^7.0.1"
+    "sass": "sass --watch src/scss/main.scss:public/css/main.css"
   }
 }
