@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "kikulover cli tool",
   "main": "index.js",
+  "bin": {
+    "node-cli": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/copyer1998/kikulover-cli/issues"
   },
-  "homepage": "https://github.com/copyer1998/kikulover-cli#readme"
+  "homepage": "https://github.com/copyer1998/kikulover-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1"
+  }
 }
